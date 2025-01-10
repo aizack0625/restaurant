@@ -465,3 +465,7 @@ main {
   text-align: center;
   padding: 20px;
 }
+
+.newsItem {
+  border-bottom: 1px solid #ccc;
+}

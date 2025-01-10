@@ -149,7 +149,7 @@ export default function Home() {
           news.map(newsItem => (
             <NewsItem key={newsItem.id}>
               <Link href={`/newslist/${newsItem.id}`}>
-                <p>{newsItem.date} {newsItem.title}</p>
+                <p className="newsItem">{newsItem.date} {newsItem.title}</p>
               </Link>
             </NewsItem>
           ))
