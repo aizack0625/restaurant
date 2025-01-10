@@ -1,0 +1,38 @@
+.newsContainer {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.newsTitle {
+  background-image: linear-gradient(135deg, #e6ba5d 0%, #9ac78a 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.linkContainer {
+  margin-top: 40px;
+}
+
+.backLink {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 1px solid #9ac78a;
+  border-radius: 5px;
+  color: #9ac78a;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.backLink:hover {
+  background-color: #9ac78a;
+  color: white;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 40px;
+}
